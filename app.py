@@ -2,7 +2,7 @@ import streamlit as st
 import os
 import google.generativeai as genai
 
-genai.configure(api_key="AIzaSyA2lnH2kXhwvAyZBmm2osOzhdEsAQB9zZE")
+genai.configure(api_key="")
 model=genai.GenerativeModel("gemini-pro")
 
 def get_gemini_response(question):
